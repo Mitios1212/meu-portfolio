@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário, André!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #0a0a0a;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://i.imgur.com/3AQiO8a.jpg'); /* Fundo temático */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            max-width: 900px;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
+        }
+
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 10px;
+            color: #FFD700; /* Dourado para lembrar Dark Souls */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        p {
+            font-size: 1.3em;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            color: #87CEEB; /* Cor do céu, em referência a Avatar */
+            font-weight: bold;
+        }
+
+        .footer {
+            font-size: 1.1em;
+            color: #ccc;
+        }
+
+        .quote {
+            margin-top: 20px;
+            font-size: 1.8em;
+            color: #ff4500; /* Cor de destaque para a frase do Chorão */
+            font-style: italic;
+        }
+
+        .photo-container {
+            margin: 20px 0;
+        }
+
+        .photo-container img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #FFD700;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #FFD700;
+            color: #000;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 30px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #ffed70;
+        }
+
+        .music-player {
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5em;
+            }
+
+            p {
+                font-size: 1.1em;
+            }
+
+            .photo-container img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Feliz Aniversário, André!</h1>
+
+        <div class="photo-container">
+            <!-- Aqui você pode colocar a URL da foto do André -->
+            <img src="https://via.placeholder.com/200" alt="Foto do André">
+        </div>
+
+        <p>Hoje é o seu dia, guerreiro! Assim como <span class="highlight">Aang</span>, você tem um espírito forte e equilibrado, sempre pronto para lutar pelo que acredita.</p>
+        <p>Que sua determinação em superar os desafios da vida seja tão inabalável quanto a de um herói de <span class="highlight">Dark Souls</span>, sempre avançando com coragem e resiliência, não importa o quão difícil seja o caminho.</p>
+        <p>E, claro, nunca se esqueça das palavras de Chorão: <span class="quote">"Dias de luta, dias de glória."</span></p>
+
+        <p class="footer">Que venham muitos momentos épicos, repletos de conquistas e felicidade! 🌀⚔🎸</p>
+
+        <!-- Player de música -->
+        <div class="music-player">
+            <p>Curta seu dia ouvindo essa música:</p>
+            <!-- Substitua o link de áudio com o arquivo correto -->
+            <audio controls>
+                <source src="https://drive.google.com/file/d/1qzpJJ6Hej9MzGAcTVl2nh4zhP9YtqAW1/view?usp=drive_link" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </div>
+
+        <a href="#" class="btn">Curta seu dia, André!</a>
+    </div>
+</body>
+</html>
